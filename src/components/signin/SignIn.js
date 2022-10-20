@@ -19,7 +19,7 @@ class SignIn extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        fetch('https://rostro-humano-en-fotografia.herokuapp.com/signin', {
+        fetch('https://app-smartbrain-clarifai.herokuapp.com/signin', {
                 method  : 'post',
                 headers : {"content-type" : "application/json"},
                 body    : JSON.stringify({

@@ -20,7 +20,7 @@ class Register extends Component{
     }
 
     onSubmitRegisterIn = () => {
-        fetch('https://rostro-humano-en-fotografia.herokuapp.com/register', {
+        fetch('https://app-smartbrain-clarifai.herokuapp.com/register', {
                 method  : 'post',
                 headers : {"content-type" : "application/json"},
                 body    : JSON.stringify({
@@ -43,7 +43,7 @@ class Register extends Component{
     render(){
         // se recibe funcion para rutas de vistas
         return(
-            <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l shadow-5 mw6 center">
+            <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
                 <main className="pa4 black-80">
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
