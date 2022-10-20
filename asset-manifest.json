@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/brauliomvaldes/smart-brain/static/css/main.6170c43b.css",
-    "main.js": "/brauliomvaldes/smart-brain/static/js/main.7a8734b5.js",
-    "index.html": "/brauliomvaldes/smart-brain/index.html",
-    "main.6170c43b.css.map": "/brauliomvaldes/smart-brain/static/css/main.6170c43b.css.map",
-    "main.7a8734b5.js.map": "/brauliomvaldes/smart-brain/static/js/main.7a8734b5.js.map"
+    "main.css": "/smart-brain/static/css/main.6170c43b.css",
+    "main.js": "/smart-brain/static/js/main.7a8734b5.js",
+    "index.html": "/smart-brain/index.html",
+    "main.6170c43b.css.map": "/smart-brain/static/css/main.6170c43b.css.map",
+    "main.7a8734b5.js.map": "/smart-brain/static/js/main.7a8734b5.js.map"
   },
   "entrypoints": [
     "static/css/main.6170c43b.css",
