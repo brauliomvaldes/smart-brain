@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aneagoie/smart-brain/static/css/main.6170c43b.css",
+    "main.js": "/aneagoie/smart-brain/static/js/main.7a8734b5.js",
+    "index.html": "/aneagoie/smart-brain/index.html",
+    "main.6170c43b.css.map": "/aneagoie/smart-brain/static/css/main.6170c43b.css.map",
+    "main.7a8734b5.js.map": "/aneagoie/smart-brain/static/js/main.7a8734b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6170c43b.css",
+    "static/js/main.7a8734b5.js"
+  ]
+}
