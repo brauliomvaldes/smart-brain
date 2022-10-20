@@ -82,7 +82,7 @@ onInputChange=(event)=>{
 // FACE_DETECT_MODEL
 onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-    fetch('http://localhost:3000/imagenurl', {
+    fetch('https://rostro-humano-en-fotografia.herokuapp.com/imagenurl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -93,7 +93,7 @@ onButtonSubmit = () => {
     .then(response => {
       if (response) {
         this.displayFaceBox(this.calculateFaceLocation(response));
-        fetch('http://localhost:3000/imagen', {
+        fetch('https://rostro-humano-en-fotografia.herokuapp.com/imagen', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
